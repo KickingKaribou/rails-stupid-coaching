@@ -1,20 +1,5 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <title>RailsStupidCoaching</title>
-    <%= csrf_meta_tags %>
-    <%= csp_meta_tag %>
-
-    <%= stylesheet_link_tag 'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %>
-  </head>
-
-  <body>
-    <%= yield %>
-    <form action="???">
-      <input type="text" name="???">
-      <input type="submit" value="Ask!">
-    </form>
-  </body>
-</html>
+<form action="/answer">
+  <input type="text" name="question">
+  <input type="submit" value="Ask!" class="btn">
+</form>
 
